@@ -9,4 +9,5 @@ public interface FlightService {
 
     Flight findOne(Long id);
 
+    Flight save(Long id, Flight flight);
 }

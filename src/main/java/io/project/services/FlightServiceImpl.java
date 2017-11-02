@@ -30,5 +30,7 @@ public class FlightServiceImpl implements FlightService {
         return flightRepository.findOne(id);
     }
 
-
+    @Override public Flight save(Long id, Flight flight) {
+        return flightRepository.save(id, flight);
+    }
 }
